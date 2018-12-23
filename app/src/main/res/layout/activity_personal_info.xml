@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<include
+		layout="@layout/toolbar_standard">
+	</include>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center"
+		android:orientation="vertical">
+
+		<tr.xip.errorview.ErrorView
+			android:id="@+id/error"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			app:ev_retryButtonText="@string/retry"
+			app:ev_retryButtonTextColor="@color/light_cyan"
+			app:ev_title="@string/error_no_info"/>
+
+		<ProgressBar
+			android:id="@+id/prg"
+			style="?android:attr/progressBarStyleLarge"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:visibility="gone"/>
+
+		<ScrollView
+			android:id="@+id/container1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:visibility="visible">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="@dimen/h_margin"
+				android:layout_marginRight="@dimen/h_margin"
+				android:orientation="vertical">
+
+				<android.support.v7.widget.CardView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/card_margin"
+					app:cardElevation="3dp">
+
+					<android.support.v7.widget.GridLayout
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						app:columnCount="2"
+						app:rowCount="8">
+
+						<TextView
+							style="@style/TitleStyle"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:gravity="center"
+							android:text="@string/pi_general_info"
+							app:layout_columnSpan="2"/>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:text="@string/pi_lastname"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_gravity="right"/>
+
+						<TextView
+							android:id="@+id/tvLastName"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_gravity="fill_horizontal"/>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:text="@string/pi_firstname"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_gravity="right"/>
+
+						<TextView
+							android:id="@+id/tvFirstName"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_columnWeight="1"
+							app:layout_gravity="fill_horizontal"/>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:text="@string/pi_am"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_gravity="right"/>
+
+						<TextView
+							android:id="@+id/tv_am"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_columnWeight="1"/>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:text="@string/pi_department"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_gravity="right"/>
+
+						<TextView
+							android:id="@+id/tvDept"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_columnWeight="1"
+							app:layout_gravity="fill_horizontal"/>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:text="@string/pi_program"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_gravity="right"/>
+
+						<TextView
+							android:id="@+id/tvProg"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_columnWeight="1"
+							app:layout_gravity="fill_horizontal"/>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:text="@string/pi_semester"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_gravity="right"/>
+
+						<TextView
+							android:id="@+id/tvSem"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_columnWeight="1"
+							app:layout_gravity="fill_horizontal"/>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:text="@string/pi_rate"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_gravity="right"/>
+
+						<TextView
+							android:id="@+id/tvRate"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_columnWeight="1"/>
+					</android.support.v7.widget.GridLayout>
+				</android.support.v7.widget.CardView>
+
+				<android.support.v7.widget.CardView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/card_margin"
+					app:cardElevation="3dp">
+
+					<android.support.v7.widget.GridLayout
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						app:columnCount="2"
+						app:rowCount="5">
+
+						<TextView
+							style="@style/TitleStyle"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:gravity="center"
+							android:text="@string/pi_registration_info"
+							app:layout_columnSpan="2"/>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:text="@string/pi_acad_year"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_gravity="right"/>
+
+						<TextView
+							android:id="@+id/tvAcadYear"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_columnWeight="1"
+							app:layout_gravity="fill_horizontal"/>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:text="@string/pi_period"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_gravity="right"/>
+
+						<TextView
+							android:id="@+id/tvPeriod"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_columnWeight="1"
+							app:layout_gravity="fill_horizontal"/>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:text="@string/pi_semester"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_gravity="right"/>
+
+						<TextView
+							android:id="@+id/tvRegSem"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_columnWeight="1"
+							app:layout_gravity="fill_horizontal"/>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:text="@string/pi_reg_mode"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_gravity="right"/>
+
+						<TextView
+							android:id="@+id/tvRegMode"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_columnWeight="1"
+							app:layout_gravity="fill_horizontal"/>
+
+					</android.support.v7.widget.GridLayout>
+
+				</android.support.v7.widget.CardView>
+
+				<android.support.v7.widget.CardView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/card_margin"
+					app:cardElevation="3dp">
+
+					<android.support.v7.widget.GridLayout
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						app:columnCount="2"
+						app:rowCount="8">
+
+						<TextView
+							style="@style/TitleStyle"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:gravity="center"
+							android:text="@string/pi_address_permanent"
+							app:layout_columnSpan="2"/>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:text="@string/pi_address"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_gravity="right"/>
+
+						<TextView
+							android:id="@+id/tvAddress"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_columnWeight="1"
+							app:layout_gravity="fill_horizontal"/>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:text="@string/pi_zip"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_gravity="right"/>
+
+						<TextView
+							android:id="@+id/tvZip"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_columnWeight="1"
+							app:layout_gravity="fill_horizontal"/>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:text="@string/pi_city"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_gravity="right"/>
+
+						<TextView
+							android:id="@+id/tvCity"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_columnWeight="1"
+							app:layout_gravity="fill_horizontal"/>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:text="@string/pi_country"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_gravity="right"/>
+
+						<TextView
+							android:id="@+id/tvCountry"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_columnWeight="1"
+							app:layout_gravity="fill_horizontal"/>
+					</android.support.v7.widget.GridLayout>
+				</android.support.v7.widget.CardView>
+
+				<android.support.v7.widget.CardView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/card_margin"
+					app:cardElevation="3dp">
+
+					<android.support.v7.widget.GridLayout
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						app:columnCount="2"
+						app:rowCount="5">
+
+						<TextView
+							style="@style/TitleStyle"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:gravity="center"
+							android:text="@string/pi_address_current"
+							app:layout_columnSpan="2"/>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:text="@string/pi_address"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_gravity="right"/>
+
+						<TextView
+							android:id="@+id/tvAddress2"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_columnWeight="1"
+							app:layout_gravity="fill_horizontal"/>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:text="@string/pi_zip"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_gravity="right"/>
+
+						<TextView
+							android:id="@+id/tvZip2"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_columnWeight="1"
+							app:layout_gravity="fill_horizontal"/>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:text="@string/pi_city"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_gravity="right"/>
+
+						<TextView
+							android:id="@+id/tvCity2"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_columnWeight="1"
+							app:layout_gravity="fill_horizontal"/>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:text="@string/pi_country"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_gravity="right"/>
+
+						<TextView
+							android:id="@+id/tvCountry2"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_columnWeight="1"
+							app:layout_gravity="fill_horizontal"/>
+					</android.support.v7.widget.GridLayout>
+				</android.support.v7.widget.CardView>
+
+				<android.support.v7.widget.CardView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/card_margin"
+					app:cardElevation="3dp">
+
+					<android.support.v7.widget.GridLayout
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						app:columnCount="2"
+						app:rowCount="4">
+
+						<TextView
+							style="@style/TitleStyle"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:gravity="center"
+							android:text="@string/pi_contact_info"
+							app:layout_columnSpan="2"/>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginEnd="5dp"
+							android:layout_marginRight="5dp"
+							android:padding="5dp"
+							android:text="@string/pi_phone1"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_gravity="right"/>
+
+						<TextView
+							android:id="@+id/tvPhone1"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_columnWeight="1"
+							app:layout_gravity="fill_horizontal"/>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginEnd="5dp"
+							android:layout_marginRight="5dp"
+							android:padding="5dp"
+							android:text="@string/pi_phone2"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_gravity="right"/>
+
+						<TextView
+							android:id="@+id/tvPhone2"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_columnWeight="1"
+							app:layout_gravity="fill_horizontal"/>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginEnd="5dp"
+							android:layout_marginRight="5dp"
+							android:padding="5dp"
+							android:text="@string/pi_email"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_gravity="right"/>
+
+						<TextView
+							android:id="@+id/tv_mail"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:padding="5dp"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							app:layout_columnWeight="1"
+							app:layout_gravity="fill_horizontal"/>
+					</android.support.v7.widget.GridLayout>
+				</android.support.v7.widget.CardView>
+
+			</LinearLayout>
+
+		</ScrollView>
+	</LinearLayout>
+</LinearLayout>

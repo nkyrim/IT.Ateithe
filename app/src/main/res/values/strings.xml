@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">IT.Ateithe</string>
+	<string name="title_activity_main">Τμήμα Μηχανικών Πληροφορικής ΑΤΕΙΘ</string>
+	<string name="title_activity_hydra">Υπηρεσίες Ύδρας</string>
+	<string name="title_activity_pithia">Υπηρεσίες Πυθίας</string>
+	<string name="title_activity_settings">Ρυθμίσεις</string>
+	<string name="title_activity_personal_info">Προσωπικές Πληροφορίες</string>
+	<string name="title_activity_staff">Προσωπικό</string>
+	<string name="title_activity_bus_line">Άφιξη Γραμμής 52</string>
+	<string name="title_activity_grades">Βαθμολογίες</string>
+	<string name="title_activity_requests">Αιτήσεις</string>
+	<string name="title_activity_thesis">Πτυχιακές Εργασίες</string>
+	<string name="title_activity_map">Χάρτης ΑΤΕΙΘ</string>
+	<string name="title_activity_directions">Οδηγίες</string>
+	<string name="title_activity_info">Πληροφορίες</string>
+	<string name="title_activity_department">Τμήμα</string>
+	<string name="title_activity_support">Υποστήριξη</string>
+	<string name="title_activity_photo">Φωτογραφίες</string>
+	<string name="title_activity_mail">Ηλεκτρονικό Ταχυδρομείο</string>
+	<string name="title_activity_links">Σύνδεσμοι</string>
+	<string name="title_activity_about">Σχετικά με την εφαρμογή</string>
+	<string name="title_activity_help">Βοήθεια</string>
+	<string name="title_activity_bulletin_list">Ανακοινώσεις</string>
+	<string name="title_activity_bulletin_detail">Προβολή Ανακοίνωσης</string>
+	<string name="title_activity_thesis_detail">Προβολή Πτυχιακής</string>
+	<string name="title_activity_mail_detail">Προβολή Μηνύματος</string>
+	<string name="title_activity_staff_detail">Πληροφορίες Προσωπικού</string>
+	<string name="title_activity_personal_timetable">Το πρόγραμμα μου</string>
+	<string name="title_activity_new_mail">Σύνταξη Μηνύματος</string>
+	<string name="title_activity_timetable">Πρόγραμμα Εξαμήνου</string>
+	<string name="title_activity_course_selection">Επιλογή Μαθημάτων</string>
+	<string name="title_activity_downloads">Λήψεις</string>
+	<string name="title_activity_request">Αιτήσεις</string>
+	<string name="title_activity_erasmus">Erasmus</string>
+	<string name="title_activity_master">Μεταπτυχιακές</string>
+	<string name="title_activity_bachelor">Προτυχιακές</string>
+
+	<!-- Actions -->
+	<string name="action_about">Σχετικά</string>
+	<string name="action_settings">Ρυθμίσεις</string>
+	<string name="action_help">Βοήθεια</string>
+	<string name="action_compose">Σύνταξη</string>
+	<string name="action_empty_trash">Άδειασμα κάδου</string>
+	<string name="action_save">Αποθήκευση</string>
+	<string name="action_restore">Επαναφορά</string>
+	<string name="action_add_attachment">Προσθήκη επισύναψης</string>
+	<string name="action_send">Αποστολή</string>
+
+	<!-- Hydra activity -->
+	<string name="hydra_services">Υπηρεσίες Τμήματος</string>
+	<string name="hydra_bulletins">Ανακοινώσεις</string>
+	<string name="timetable">Πρόγραμμα Εξαμήνου</string>
+	<string name="hydra_thesis">Πτυχιακές</string>
+	<string name="hydra_staff">Προσωπικό</string>
+
+	<!-- Pithia activity -->
+	<string name="pithia_services">Υπηρεσίες Γραμματείας</string>
+	<string name="pithia_grades">Βαθμολογίες</string>
+	<string name="pithia_requests">Αιτήσεις</string>
+	<string name="pithia_overview">Επισκόπηση Όλων</string>
+	<string name="pithia_personal_info">Προσωπικές Πληροφορίες</string>
+	<string name="grades_general">Αριθμός περασμένων μαθημάτων :</string>
+	<string name="grades_avg">Μ.Ο μαθημάτων:</string>
+
+	<!-- Additional activity -->
+	<string name="bus_arrival">Άφιξη Γραμμής 52</string>
+	<string name="available_labs">Ελεύθερα Εργαστήρια</string>
+	<string name="mail">Ηλ. Ταχυδρομείο</string>
+	<string name="map">Χάρτης ΑΤΕΙΘ</string>
+	<string name="download_attachment">Λήψη Επισύναψης</string>
+	<string name="availability">Διαθεσιμότητα</string>
+
+	<!-- Personal Info activity -->
+	<string name="pi_general_info">Γενικές Πληροφορίες</string>
+	<string name="pi_registration_info">Στοιχεία Εγγραφής</string>
+	<string name="pi_address_permanent">Μόνιμη Διεύθυνση</string>
+	<string name="pi_address_current">Προσωρινή Διεύθυνση</string>
+	<string name="pi_contact_info">Στοιχεία επικοινωνίας</string>
+	<string name="pi_username">Όνομα χρήστη:</string>
+	<string name="pi_lastname">Επώνυμο:</string>
+	<string name="pi_firstname">Όνομα:</string>
+	<string name="pi_am">ΑΜ: %1$s</string>
+	<string name="pi_department">Τμήμα:</string>
+	<string name="pi_semester">Εξάμηνο:</string>
+	<string name="pi_program">Πρ. Σπουδών:</string>
+	<string name="pi_rate">Δεικ. Προόδου:</string>
+	<string name="pi_acad_year">Ακαδ. έτος:</string>
+	<string name="pi_period">Περίοδος:</string>
+	<string name="pi_reg_mode">Τρ. εγγραφής:</string>
+	<string name="pi_address">Διεύθυνση:</string>
+	<string name="pi_zip">Ταχ. Κώδικας:</string>
+	<string name="pi_city">Πόλη:</string>
+	<string name="pi_country">Χώρα:</string>
+	<string name="pi_phone1">Τηλέφωνο 1:</string>
+	<string name="pi_phone2">Τηλέφωνο 2:</string>
+	<string name="pi_email">E-mail:</string>
+
+	<!-- Staff activity -->
+	<string name="st_lastname">Επώνυμο:</string>
+	<string name="st_firstname">Όνομα:</string>
+
+	<!-- Preferences -->
+	<string name="pref_accounts">Λογαριασμοί</string>
+	<string name="pref_hydra">Υπηρεσίες Τμήματος</string>
+	<string name="pref_pithia">Υπηρεσίες Γραμματείας</string>
+	<string name="pref_email">Πρόσθετες Υπηρεσίες</string>
+	<string name="pref_hydra_msg">Σύνδεση με τις υπηρεσίες του server hydra όπως οι ανακοινώσεις</string>
+	<string name="pref_pithia_msg">Σύνδεση με τις υπηρεσίες του server pithia όπως οι βαθμολογίες</string>
+	<string name="pref_mail_msg">Σύνδεση με τις υπηρεσίες του server aetos όπως το ηλ. ταχυδρομείο</string>
+	<string name="pref_notifications">Ανακοινώσεις</string>
+	<string name="pref_notifications_activate">Έλεγχος για νέες ανακοινώσεις</string>
+	<string name="pref_notifications_activate_msg">Ενεργοποίηση αυτόματου ελέγχου</string>
+	<string name="pref_notifications_max">Αριθμός ανακοινώσεων</string>
+	<string name="pref_notifications_max_msg">Ορίστε τον μέγιστο αριθμό των ανακοινώσεων που θα εμφανίζονται</string>
+	<string name="pref_notifications_max_dialogmsg">Επιλέξτε το μέγιστο αριθμό των ανακοινώσεων που θα εμφανίζονται.\n\n(0 για εμφάνιση όλων)</string>
+	<string name="pref_interval">Χρονικό διάστημα</string>
+	<string name="pref_interval_msg">Ορίστε κάθε πότε θα γίνεται έλεγχος</string>
+	<string name="pref_other">Άλλες ρυθμίσεις</string>
+	<string name="pref_download_dir">Κατάλογος Λήψεων</string>
+	<string name="pref_download_dir_msg">Ορίστε τον κατάλογο στον οποίο θα αποθηκεύονται τα ληφθέντα αρχεία</string>
+	<string name="pref_course_sel">Επιλογή Μαθημάτων</string>
+	<string name="pref_course_sel_msg">Επιλέξτε τα μαθήματα που έχετε δηλώσει αυτό το εξάμηνο ώστε να ενημερωθεί το προσωπικό σας
+		πρόγραμμα</string>
+
+	<!-- Activity Mail activity -->
+	<string name="sender_">Αποστολέας:</string>
+	<string name="subject_">Θέμα:</string>
+	<string name="date_">Ημερομηνία:</string>
+	<string name="to">Προς</string>
+	<string name="cc">Κοινοποίηση</string>
+	<string name="bcc">Κρυφή Κοινοποίηση</string>
+	<string name="subject">Θέμα</string>
+	<string name="message">Μήνυμα</string>
+	<string name="send">Αποστολή</string>
+	<string name="CC">CC</string>
+	<string name="BCC">BCC</string>
+	<string name="mail_sent">Το μήνυμα στάλθηκε επιτυχώς.</string>
+	<string name="file_added">Το αρχείο προστέθηκε επιτυχώς.</string>
+	<string name="file_too_big">Το αρχείο είναι μεγαλύτερο από 2mb</string>
+	<string name="no_subject">- Χωρίς Θέμα -</string>
+	<string name="empty_trash_success">Η διαγραφή ολοκληρώθηκε επιτυχώς</string>
+	<string name="empty_trash_fail">Η διαγραφή απέτυχε</string>
+	<string name="empty_trash_notice">Θα διαγραφούν όλα τα μηνύματα. Θέλετε να συνεχίσετε;</string>
+	<string name="empty_trash_positive">ΔΙΑΓΡΑΦΗ</string>
+	<string name="empty_trash_negative">ΑΚΥΡΩΣΗ</string>
+
+	<!-- Other activity-->
+	<string name="search">Αναζήτηση</string>
+	<string name="select_markers">Επιλογή σημάνσεων</string>
+	<string name="select_tags">Επιλογή tags</string>
+	<string name="avail_selection">Επιλογή διαθέσιμων</string>
+	<string name="departments">Τμήματα</string>
+	<string name="download_start">Έναρξη λήψης</string>
+	<string name="downloading">Γίνεται λήψη</string>
+	<string name="download_complete">Η λήψη ολοκληρώθηκε</string>
+	<string name="download_failed">Η λήψη απέτυχε</string>
+
+	<string name="ok">OK</string>
+	<string name="cancel">Άκυρο</string>
+	<string name="yes">Ναι</string>
+	<string name="folders">Φάκελοι</string>
+	<string name="no">Όχι</string>
+	<string name="continue_">Συνέχεια</string>
+
+	<string name="quoting">Quoting</string>
+	<string name="total_dm">Σύνολο Δ.Μ:</string>
+	<string name="latest_grades">Τελευταίες Βαθμολογίες</string>
+	<string name="announcements">Ανακοινώσεις</string>
+	<string name="retry">Επανάληψη</string>
+	<string name="five_last_bulletins">Τελευταίες 5 ανακοινώσεις</string>
+	<string name="last_updated">Τελ. ενημέρωση: %1$s</string>
+	<string name="name_">Όνομα</string>
+	<string name="lastname">Επώνυμο</string>
+	<string name="department">Τμήμα</string>
+	<string name="program">Προγ. Σπουδών</string>
+	<string name="select_board">Επιλέξτε πίνακα</string>
+	<string name="download_attach">Λήψη επισύναψης</string>
+	<string name="downloads">Λήψεις</string>
+	<string name="my_timetable">Το πρόγραμμα μου</string>
+	<string name="attachment">Επισύναψη</string>
+	<string name="attachments">Συνημμένα</string>
+	<string name="noti_new_bulletins">Υπάρχουν %1$s νέες ανακοινώσεις.</string>
+	<string name="wrong_account_param">Μη έγκυρη παράμετρος λογαριασμού</string>
+	<string name="share">Κοινοποίηση</string>
+	<string name="tools">Εργαλεία</string>
+	<string name="bulletin_check">Έλεγχος για νέες Ανακοινώσεις</string>
+	<string name="hydra">Ύδρα</string>
+	<string name="pithia">Πυθία</string>
+	<string name="save_success">Η αποθήκευση ολοκληρώθηκε επιτυχώς</string>
+	<string name="save_fail">Η αποθήκευση απέτυχε</string>
+	<string name="staff_info">Πληροφορίες Προσωπικού</string>
+	<string name="roles">Ρόλοι:</string>
+	<string name="office_number">Τηλ. Γραφείου:</string>
+	<string name="email">E-mail:</string>
+	<string name="teaches">Διδάσκει:</string>
+	<string name="webpage">Ιστοσελίδα:</string>
+	<string name="title">Τίτλος:</string>
+	<string name="submitted">Υποβλήθηκε:</string>
+	<string name="teacher">Διδάσκων:</string>
+	<string name="tags_">Tags:</string>
+	<string name="availiable">Διαθέσιμη:</string>
+	<string name="completed">Ολοκληρωμένη:</string>
+	<string name="summary">Σύνοψη:</string>
+	<string name="thesis_detail">Προβολή πτυχιακής</string>
+	<string name="doc_download">Λήψη εγγράφου πτυχιακής</string>
+	<string name="home">Αρχική</string>
+	<string name="about">Σχετικά</string>
+	<string name="help">Βοήθεια</string>
+	<string name="play">Αναπαραγωγή</string>
+	<string name="pause">Παύση</string>
+	<string name="no_passed_courses">Σύνολο περασμένων μαθημάτων: </string>
+	<string name="avg_semester">Μ.Ο περασμένων μαθημάτων: </string>
+	<string name="markers">Τοποθεσίες</string>
+	<string name="directions">Πλοήγηση</string>
+	<string name="settings">Ρυθμίσεις</string>
+	<string name="tt_room">Αίθ: (%1$s)</string>
+	<string name="info">Πληροφορίες</string>
+	<string name="tags">Tags</string>
+	<string name="invalid_directory">Μη έγκυρος κατάλογος</string>
+	<string name="valid_directory">Ο κατάλογος ορίστηκε επιτυχώς</string>
+	<string name="support">Υποστήριξη</string>
+	<string name="next">Επόμενο</string>
+	<string name="next_short">Επόμ.</string>
+	<string name="photos">Φωτογραφίες</string>
+	<string name="restore">Έγινε επαναφορά των επιλογών</string>
+	<string name="links">Σύνδεσμοι</string>
+	<string name="show_bulletins">Εμφάνιση ανακοινώσεων</string>
+	<string name="oasth_note">Επίσημη (mobile) ιστοσελίδα του ΟΑΣΘ</string>
+	<string name="no_contact_elements">Δεν υπάρχουν στοιχεία επικοινωνίας, είστε σίγουροι πως θέλετε να προστεθεί στις επαφές σας;</string>
+	<string name="add_contact_msg">Θέλετε να προστεθεί στις επαφές σας;</string>
+	<string name="add_contact_success">Η επαφή αποθηκεύτηκε επιτυχώς</string>
+	<string name="add_contact_fail">Η αποθήκευση της επαφής απέτυχε</string>
+	<string name="no_tags">Χωρίς tags</string>
+	<string name="logo"
+			translatable="false">logo</string>
+	<string name="sending_mail">Γίνεται αποστολή του μηνύματος</string>
+	<string name="invalid_mail">"Δεν είναι δυνατή η εμφάνιση του μηνύματος"</string>
+	<string name="msg_verify_forward">Επιβεβαιώνεται πάντα το μήνυμα προς προώθηση</string>
+	<string name="msg_forward_mail_fail">Απέτυχε η επιλογή του mail προς προώθηση</string>
+	<string name="home_grade">ΑΡΧΙΚΗ</string>
+
+	<!-- Strings related to login -->
+	<string name="logged_as">Συνδεδεμένος ως: %1$s</string>
+	<string name="sign_in">Είσοδος</string>
+	<string name="sign_in_short">Είσ.</string>
+	<string name="back">Επιστροφή</string>
+	<string name="username">Όνομα Χρήστη</string>
+	<string name="am">ΑΜ</string>
+	<string name="password">Κωδικός</string>
+	<string name="login">Σύνδεση</string>
+	<string name="account_hydra">Σύνδεση (hydra)</string>
+	<string name="account_pithia">Σύνδεση (pithia)</string>
+	<string name="account_aetos">Σύνδεση (aetos)</string>
+	<string name="account">Λογαριασμός</string>
+
+	<!-- Account check dialog -->
+	<string name="account_check_title">Απαιτείτε σύνδεση</string>
+	<string name="account_check_content">Για την πρόσβαση στις υπηρεσίες είναι απαραίτητη η σύνδεση με τη χρήση του	αντίστοιχου λογαριασμού.</string>
+	<string name="account_check_positive">ΣΥΝΔΕΣΗ</string>
+	<string name="account_check_negative">ΟΧΙ ΤΩΡΑ</string>
+
+	<!-- Course selection check dialog -->
+	<string name="courses_select_title">Επιλογή μαθημάτων</string>
+	<string name="courses_select_content">Για την εμφάνιση του προσωπικού σας προγράμματος πρέπει πρώτα να επιλέξετε τα μαθήματα που
+		έχετε δηλώσει αυτό εξάμηνο.</string>
+	<string name="courses_select_positive">ΣΥΝΕΧΕΙΑ</string>
+	<string name="courses_select_negative">ΟΧΙ ΤΩΡΑ</string>
+
+	<!-- Timetable slots -->
+	<string name="tt1">8 – 9</string>
+	<string name="tt2">9 – 10</string>
+	<string name="tt3">10 – 11</string>
+	<string name="tt4">11 – 12</string>
+	<string name="tt5">12 – 13</string>
+	<string name="tt6">13 – 14</string>
+	<string name="tt7">14 – 15</string>
+	<string name="tt8">15 – 16</string>
+	<string name="tt9">16 – 17</string>
+	<string name="tt10">17 – 18</string>
+	<string name="tt11">18 – 19</string>
+	<string name="tt12">19 – 20</string>
+
+	<!-- errors -->
+	<string name="error_general">Συνέβη σφάλμα</string>
+	<string name="error_grades_info">Σφάλμα κατά τη λήψη των προσωπικών πληροφοριών</string>
+	<string name="error_custom">Συνέβη σφάλμα: %1$s</string>
+	<string name="error_htpp">Συνέβη σφάλμα (Http code: %1$s)</string>
+	<string name="error_no_records">Δεν βρέθηκαν εγγραφές</string>
+	<string name="error_no_mail">Δεν βρέθηκαν μηνύματα</string>
+	<string name="error_no_timetable">Δεν βρέθηκε το πρόγραμμα</string>
+	<string name="error_no_grades">Δεν βρέθηκαν βαθμολογίες</string>
+	<string name="error_no_courses">Δεν βρέθηκαν επιλεγμένα μαθήματα</string>
+	<string name="error_download">Σφάλμα στη λήψη δεδομένων</string>
+	<string name="error_no_account">Δεν βρέθηκε αποθηκευμένος λογαριασμός</string>
+	<string name="error_connection_timeout">Το χρονικό όριο σύνδεσης έληξε</string>
+	<string name="error_folder_loading">Σφάλμα κατά τη φόρτωση των φακέλων</string>
+	<string name="error_login">Η σύνδεση απέτυχε.</string>
+	<string name="error_field_required">Απαραίτητο πεδίο</string>
+	<string name="error_courses">Σφάλμα κατά τη φόρτωση των μαθημάτων</string>
+	<string name="error_no_info">Δεν βρέθηκαν πληροφορίες</string>
+	<string name="error_no_requests">Δεν βρέθηκαν αιτήσεις</string>
+	<string name="error_cant_open">Δεν είναι δυνατό το άνοιγμα του αρχείου</string>
+	<string name="error_reading_timetable">Σφάλμα κατά το φόρτωμα του προγράμματος</string>
+	<string name="error_connection">Σφάλμα δικτύου</string>
+
+	<!-- Messages -->
+	<string name="warning_delete_mail">Η μέθοδος διαγραφής/μετακίνησης μηνυμάτων της εφαρμογής διαφέρει απο το WebMail.
+		\n\nΤο μήνυμα θα μεταφερθεί στο φάκελο που έχετε επιλέξει ή στα "Διαγραμμένα"(αν πρόκειται για διαγραφή) και τυχόν μηνύματα
+		στο τρέχοντα φάκελο που έχετε διαγράψει αλλά δεν έχει γίνει οριστική διαγραφή μέσω του WebMail θα διαγραφούν οριστικά.
+		\n\nΔείτε τη \"Βοήθεια\" για πρόσθετες πληροφορίες.
+	</string>
+	<string name="dont_show_again">Να μην ξαναεμφανιστεί</string>
+	<string name="no_google_play">Δεν βρέθηκαν οι υπηρεσίες Google Play</string>
+	<string name="login_successful">Συνδεθήκατε επιτυχώς!</string>
+	<string name="no_gps">Το GPS φαίνεται απενεργοποιημένο, θέλετε να το ενεργοποιήσετε;</string>
+	<string name="filter">Φίλτρο</string>
+	<string name="select_folder">Επιλέξτε φάκελο</string>
+	<string name="select_semester">Επιλέξτε εξάμηνο</string>
+	<string name="refresh">Ανανέωση</string>
+	<string name="add_contact">Προσθήκη επαφής</string>
+	<string name="forward">Προώθηση</string>
+	<string name="reply">Απάντηση</string>
+	<string name="move_to">Μετακίνηση σε</string>
+	<string name="delete">Διαγραφή</string>
+	<string name="delete_move_in_progress">Διαγραφή ή μεταφορά σε εξέλιξη</string>
+	<string name="mail_delete_success">Το μήνυμα διαγράφηκε</string>
+	<string name="mail_move_success">Το μήνυμα μεταφέρθηκε</string>
+	<string name="show_html">Προβολή HTML</string>
+	<string name="select_availability">Επιλογή διαθεσιμότητας</string>
+	<string name="select_file">Επιλέξτε αρχείο</string>
+	<string name="theory">Θεωρία</string>
+	<string name="group">Εργαστήριο</string>
+	<string name="exam">Εξεταστική</string>
+	<string name="student_info">Στοιχεία Φοιτητή</string>
+	<string name="file_dl">Λήψη αρχείου</string>
+	<string name="file_dl_complete">Η λήψη ολοκληρώθηκε.</string>
+	<string name="file_dl_failed">Ανεπιτυχής λήψη.</string>
+	<string name="no_network">Χωρίς σύνδεση</string>
+	<string name="wait">Παρακαλώ περιμένετε</string>
+	<string name="warning">Προσοχή</string>
+	<string name="permanent_delete">Οριστική διαγραφή</string>
+	<string name="permanent_delete_msg">Πρόκειται να διαγράψετε το μήνυμα οριστικά. Θέλετε να συνεχίσετε;</string>
+	<string name="save">Αποθήκευση</string>
+	<string name="directions_calculated">Η πορεία έχει υπολογιστεί, θέλετε να δείτε τις οδηγίες τώρα;</string>
+	<string name="show_directions">Δείξε τις οδηγίες</string>
+	<string name="recalculate_directions">Επαναϋπολόγισε την πορεία</string>
+	<string name="no_location">Η τοποθεσία σας δεν έχει ακόμα εντοπιστεί</string>
+	<string name="no_location_permission">Η εφαρμογή δεν έχει δικαιώμα εντοπισμού της θέσης σας</string>
+	<string name="directions_error">Σφάλμα κατά την λήψη των οδηγιών πλοήγησης</string>
+	<string name="img">img</string>
+	<string name="about_message">Εφαρμογή για το Τμήμα Μηχανικών Πληροφορικής του Αλεξάνδρειου ΤΕΙ Θεσσαλονίκης.
+		Παρέχει πληροφορίες, πρόσβαση στις υπηρεσίες του τμήματος όπως οι ανακοινώσεις και οι βαθμολογίες καθώς και άλλα χρήσιμα εργαλεία.
+		Δεν αποτελεί επίσημη εφαρμογή του τμήματος και αναπτύχθηκε αρχικά στα πλαίσια πτυχιακής εργασίας της οποίας και αποτελεί συνέχεια.
+	</string>
+	<string
+		name="permissiion_denied_msg"><![CDATA[Αν δεν παραχωρήσετε την άδεια δεν θα μπορείτε να χρησιμοποιήσετε τη συγκεκριμένη υπηρεσία. \\n\\nΜπορείτε να παραχωρήσετε την άδεια μεταβένοντας στις [Ρυθμίσεις] -> [Άδειες]]]></string>
+	<string name="studies">Σπουδές</string>
+	<string name="erasmus">Erasmus</string>
+	<string name="master">Μεταπτυχιακές</string>
+	<string name="bachelor">Προτυχιακές</string>
+
+</resources>

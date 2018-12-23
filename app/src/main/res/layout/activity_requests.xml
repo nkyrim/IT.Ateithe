@@ -1,0 +1,44 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<include
+		layout="@layout/toolbar_standard">
+	</include>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center"
+		android:orientation="vertical">
+
+		<tr.xip.errorview.ErrorView
+			android:id="@+id/error"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:visibility="gone"
+			app:ev_retryButtonText="@string/retry"
+			app:ev_retryButtonTextColor="@color/light_cyan"
+			app:ev_title="@string/error_no_requests"/>
+
+		<ProgressBar
+			android:id="@+id/prg"
+			style="?android:attr/progressBarStyleLarge"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:visibility="gone"/>
+
+		<android.support.v7.widget.RecyclerView
+			android:id="@+id/list"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_marginLeft="@dimen/h_margin"
+			android:layout_marginRight="@dimen/h_margin"
+			android:scrollbars="vertical">
+
+		</android.support.v7.widget.RecyclerView>
+	</LinearLayout>
+</LinearLayout>

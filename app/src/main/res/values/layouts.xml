@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<item name="bulletins" type="layout">@layout/activity_bulletins</item>
+	<item name="thesis" type="layout">@layout/activity_thesis</item>
+	<item name="staff" type="layout">@layout/activity_staff</item>
+	<item name="map" type="layout">@layout/activity_map_vertical</item>
+	<item name="mail" type="layout">@layout/activity_mail</item>
+	<bool name="has_two_panes">false</bool>
+</resources>

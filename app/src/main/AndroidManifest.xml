@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.nkyrim.itapp"
+		  xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<uses-feature
+		android:glEsVersion="0x00020000"
+		android:required="true"/>
+	<uses-feature
+		android:name="android.hardware.location.gps"
+		android:required="false"/>
+	<uses-feature
+		android:name="android.hardware.location.network"
+		android:required="false"/>
+
+	<uses-permission android:name="com.nkyrim.itapp.permission.MAPS_RECEIVE"/>
+	<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+	<uses-permission android:name="android.permission.VIBRATE"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+	<uses-permission android:name="android.permission.READ_CONTACTS"/>
+	<uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+
+	<application
+		android:name=".ItApp"
+		android:allowBackup="true"
+		android:fullBackupContent="false"
+		android:icon="@mipmap/ic_launcher"
+		android:label="@string/app_name"
+		android:theme="@style/AppTheme">
+		<meta-data
+			android:name="com.google.android.gms.version"
+			android:value="@integer/google_play_services_version"/>
+		<meta-data
+			android:name="com.google.android.geo.API_KEY"
+			android:value="GOOGLE_MAPS_API_KEY"/>
+
+		<activity
+			android:name=".ui.other.MainActivity"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".ui.settings.SettingsActivity"
+			android:excludeFromRecents="true"
+			android:label="@string/title_activity_settings">
+		</activity>
+		<activity
+			android:name=".ui.other.LoginActivity"
+			android:excludeFromRecents="true"
+			android:theme="@style/DialogWhenLarge"
+			android:windowSoftInputMode="adjustResize">
+		</activity>
+		<activity
+			android:name=".ui.info.HelpActivity"
+			android:excludeFromRecents="true"
+			android:label="@string/title_activity_help">
+		</activity>
+		<activity
+			android:name=".ui.bulletins.BulletinActivity"
+			android:label="@string/title_activity_bulletin_list">
+		</activity>
+		<activity
+			android:name=".ui.bulletins.BulletinDetailActivity"
+			android:label="@string/title_activity_bulletin_detail">
+		</activity>
+		<activity
+			android:name=".ui.thesis.ThesisActivity"
+			android:label="@string/title_activity_thesis">
+		</activity>
+		<activity
+			android:name=".ui.staff.StaffActivity"
+			android:label="@string/title_activity_staff">
+		</activity>
+		<activity
+			android:name=".ui.staff.StaffDetailActivity"
+			android:label="@string/title_activity_staff_detail">
+		</activity>
+		<activity
+			android:name=".ui.info.DepartmentActivity"
+			android:label="@string/title_activity_department">
+		</activity>
+		<activity
+			android:name=".ui.info.LinksActivity"
+			android:label="@string/title_activity_links">
+		</activity>
+		<activity
+			android:name=".ui.info.PhotoActivity"
+			android:label="@string/title_activity_photo">
+		</activity>
+		<activity
+			android:name=".ui.info.SupportActivity"
+			android:label="@string/title_activity_support">
+		</activity>
+		<activity
+			android:name=".ui.thesis.ThesisDetailActivity"
+			android:label="@string/title_activity_thesis_detail">
+		</activity>
+		<activity
+			android:name=".ui.other.BusLineActivity"
+			android:label="@string/title_activity_bus_line">
+		</activity>
+		<activity
+			android:name=".ui.map.MapActivity"
+			android:label="@string/title_activity_map">
+		</activity>
+		<activity
+			android:name=".ui.mail.MailActivity"
+			android:label="@string/title_activity_mail">
+		</activity>
+		<activity
+			android:name=".ui.mail.MailDetailActivity"
+			android:label="@string/title_activity_mail_detail">
+		</activity>
+		<activity
+			android:name=".ui.timetable.TimetableActivity"
+			android:label="@string/title_activity_timetable">
+		</activity>
+		<activity
+			android:name=".ui.timetable.TimetablePersonalActivity"
+			android:label="@string/title_activity_personal_timetable">
+		</activity>
+		<activity
+			android:name=".ui.mail.MailComposeActivity"
+			android:label="@string/title_activity_new_mail">
+		</activity>
+		<activity
+			android:name=".ui.other.AboutActivity"
+			android:label="@string/title_activity_about">
+		</activity>
+		<activity
+			android:name=".ui.courseselection.CourseSelectionActivity"
+			android:label="@string/title_activity_course_selection">
+		</activity>
+		<activity
+			android:name=".ui.filepickers.DownloadsActivity"
+			android:theme="@style/FilePickerTheme">
+		</activity>
+		<activity
+			android:name=".ui.filepickers.DirectorySelectActivity"
+			android:theme="@style/FilePickerTheme">
+		</activity>
+		<activity
+			android:name=".ui.filepickers.FileSelectActivity"
+			android:theme="@style/FilePickerTheme">
+		</activity>
+		<activity
+			android:name=".ui.personalinfo.PersonalInfoActivity"
+			android:label="@string/title_activity_personal_info">
+		</activity>
+		<activity
+			android:name=".ui.grades.GradesActivity"
+			android:label="@string/title_activity_grades">
+		</activity>
+		<activity
+			android:name=".ui.requests.RequestsActivity"
+			android:label="@string/title_activity_request">
+		</activity>
+		<activity
+			android:name=".ui.info.BachelorActivity"
+			android:label="@string/title_activity_erasmus">
+		</activity>
+		<activity
+			android:name=".ui.info.MasterActivity"
+			android:label="@string/title_activity_master">
+		</activity>
+		<activity
+			android:name=".ui.info.ErasmusActivity"
+			android:label="@string/title_activity_bachelor">
+		</activity>
+		<!-- Services -->
+		<service
+			android:name=".services.DownloadHydraService"
+			android:icon="@mipmap/ic_launcher"
+			android:label="DownloadHydraService">
+		</service>
+		<service
+			android:name=".services.DownloadPithiaService"
+			android:icon="@mipmap/ic_launcher"
+			android:label="DownloadPithiaService">
+		</service>
+		<service
+			android:name=".services.DownloadMailAttachmentService"
+			android:icon="@mipmap/ic_launcher"
+			android:label="DownloadMailAttachmentService">
+		</service>
+		<service
+			android:name=".services.BulletinService"
+			android:icon="@mipmap/ic_launcher"
+			android:label="BulletinService">
+		</service>
+		<service
+			android:name=".services.MailSendService"
+			android:icon="@mipmap/ic_launcher"
+			android:label="MailSendService">
+		</service>
+		<!-- Broadcast receivers -->
+		<receiver android:name=".bcreceiveres.DeviceBootReceiver">
+			<intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED"/>
+			</intent-filter>
+		</receiver>
+	</application>
+
+</manifest>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+	android:id="@+id/container"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<include
+		layout="@layout/toolbar_tabbed">
+	</include>
+
+	<TextView
+		android:id="@+id/tvSem"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/light_grey"
+		android:gravity="center"/>
+
+	<RelativeLayout
+		android:id="@+id/prg"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center"
+		android:visibility="gone">
+
+		<ProgressBar
+			style="?android:attr/progressBarStyleLarge"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	</RelativeLayout>
+
+	<tr.xip.errorview.ErrorView
+		android:id="@+id/error"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:visibility="gone"
+		app:ev_retryButtonText="@string/retry"
+		app:ev_retryButtonTextColor="@color/light_cyan"
+		app:ev_title="@string/error_no_timetable"/>
+
+	<android.support.v4.view.ViewPager
+		android:id="@+id/pager"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:visibility="gone"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+	<android.support.design.widget.FloatingActionButton
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="end|bottom"
+		android:layout_margin="@dimen/fab_margin"
+		android:onClick="showSemesters"
+		android:src="@drawable/ic_sem"
+		app:layout_behavior="com.nkyrim.itapp.ui.util.FABScrollBehavior"/>
+</android.support.design.widget.CoordinatorLayout>
+

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="80dp"
+				android:layout_height="match_parent"
+				android:gravity="center"
+				android:padding="5dp"
+				android:text="@string/tt1"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<View
+				android:layout_width="1dp"
+				android:layout_height="match_parent"
+				android:background="@color/grey"/>
+
+			<LinearLayout
+				android:id="@+id/slot1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical">
+			</LinearLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/light_grey"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="80dp"
+				android:layout_height="match_parent"
+				android:gravity="center"
+				android:padding="5dp"
+				android:text="@string/tt2"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<View
+				android:layout_width="1dp"
+				android:layout_height="match_parent"
+				android:background="@color/grey"/>
+
+			<LinearLayout
+				android:id="@+id/slot2"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical">
+			</LinearLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="80dp"
+				android:layout_height="match_parent"
+				android:gravity="center"
+				android:padding="5dp"
+				android:text="@string/tt3"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<View
+				android:layout_width="1dp"
+				android:layout_height="match_parent"
+				android:background="@color/grey"/>
+
+			<LinearLayout
+				android:id="@+id/slot3"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical">
+			</LinearLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/light_grey"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="80dp"
+				android:layout_height="match_parent"
+				android:gravity="center"
+				android:padding="5dp"
+				android:text="@string/tt4"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<View
+				android:layout_width="1dp"
+				android:layout_height="match_parent"
+				android:background="@color/grey"/>
+
+			<LinearLayout
+				android:id="@+id/slot4"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical">
+			</LinearLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="80dp"
+				android:layout_height="match_parent"
+				android:gravity="center"
+				android:padding="5dp"
+				android:text="@string/tt5"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<View
+				android:layout_width="1dp"
+				android:layout_height="match_parent"
+				android:background="@color/grey"/>
+
+			<LinearLayout
+				android:id="@+id/slot5"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical">
+			</LinearLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/light_grey"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="80dp"
+				android:layout_height="match_parent"
+				android:gravity="center"
+				android:padding="5dp"
+				android:text="@string/tt6"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<View
+				android:layout_width="1dp"
+				android:layout_height="match_parent"
+				android:background="@color/grey"/>
+
+			<LinearLayout
+				android:id="@+id/slot6"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical">
+			</LinearLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="80dp"
+				android:layout_height="match_parent"
+				android:gravity="center"
+				android:padding="5dp"
+				android:text="@string/tt7"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<View
+				android:layout_width="1dp"
+				android:layout_height="match_parent"
+				android:background="@color/grey"/>
+
+			<LinearLayout
+				android:id="@+id/slot7"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical">
+			</LinearLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/light_grey"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="80dp"
+				android:layout_height="match_parent"
+				android:gravity="center"
+				android:padding="5dp"
+				android:text="@string/tt8"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<View
+				android:layout_width="1dp"
+				android:layout_height="match_parent"
+				android:background="@color/grey"/>
+
+			<LinearLayout
+				android:id="@+id/slot8"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical">
+			</LinearLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="@color/white"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="80dp"
+				android:layout_height="match_parent"
+				android:gravity="center"
+				android:padding="5dp"
+				android:text="@string/tt9"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<View
+				android:layout_width="1dp"
+				android:layout_height="match_parent"
+				android:background="@color/grey"/>
+
+			<LinearLayout
+				android:id="@+id/slot9"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical">
+
+			</LinearLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/light_grey"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="80dp"
+				android:layout_height="match_parent"
+				android:gravity="center"
+				android:padding="5dp"
+				android:text="@string/tt10"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<View
+				android:layout_width="1dp"
+				android:layout_height="match_parent"
+				android:background="@color/grey"/>
+
+			<LinearLayout
+				android:id="@+id/slot10"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical">
+			</LinearLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="80dp"
+				android:layout_height="match_parent"
+				android:gravity="center"
+				android:padding="5dp"
+				android:text="@string/tt11"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<View
+				android:layout_width="1dp"
+				android:layout_height="match_parent"
+				android:background="@color/grey"/>
+
+			<LinearLayout
+				android:id="@+id/slot11"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical">
+			</LinearLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/light_grey"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="80dp"
+				android:layout_height="match_parent"
+				android:gravity="center"
+				android:padding="5dp"
+				android:text="@string/tt12"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<View
+				android:layout_width="1dp"
+				android:layout_height="match_parent"
+				android:background="@color/grey"/>
+
+			<LinearLayout
+				android:id="@+id/slot12"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical">
+			</LinearLayout>
+
+		</LinearLayout>
+	</LinearLayout>
+</android.support.v4.widget.NestedScrollView>

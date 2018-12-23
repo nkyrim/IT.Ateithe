@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:focusableInTouchMode="true"
+	android:orientation="vertical">
+
+	<include
+		layout="@layout/toolbar_underlined">
+	</include>
+
+	<!-- Login progress -->
+	<RelativeLayout
+		android:id="@+id/prg"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center"
+		android:minHeight="260dp"
+		android:visibility="gone">
+
+		<ProgressBar
+			style="?android:attr/progressBarStyleLarge"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	</RelativeLayout>
+
+	<!-- Login form -->	<ScrollView
+	android:id="@+id/form"
+	android:layout_width="match_parent"
+	android:layout_height="0dp"
+	android:layout_weight="1">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="10dp">
+
+		<TextView
+			android:id="@+id/tv_msg"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingBottom="5dp"
+			android:text="@string/logged_as"
+			android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+		<android.support.design.widget.TextInputLayout
+			android:id="@+id/til_username"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<EditText
+				android:id="@+id/et_username"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:hint="@string/username"
+				android:imeActionLabel="@string/next"
+				android:imeOptions="actionNext"
+				android:inputType="textVisiblePassword"
+				android:maxLines="1"
+				android:singleLine="true"/>
+		</android.support.design.widget.TextInputLayout>
+
+		<android.support.design.widget.TextInputLayout
+			android:id="@+id/til_password"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<EditText
+				android:id="@+id/et_password"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:hint="@string/password"
+				android:imeActionId="6"
+				android:imeActionLabel="@string/sign_in"
+				android:imeOptions="actionDone"
+				android:inputType="textPassword"
+				android:maxLines="1"
+				android:singleLine="true"/>
+		</android.support.design.widget.TextInputLayout>
+
+		<TextView
+			android:id="@+id/error"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:drawableLeft="@android:drawable/ic_delete"
+			android:drawableStart="@android:drawable/ic_delete"
+			android:gravity="center_vertical"
+			android:padding="3dp"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:textColor="#ffff0000"
+			android:textStyle="italic"
+			android:visibility="gone"/>
+	</LinearLayout>
+
+</ScrollView>
+
+	<info.hoang8f.widget.FButton
+		android:id="@+id/btn_login"
+		style="@style/ButtonSmallStyle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="15dp"
+		android:onClick="login"
+		android:text="@string/sign_in"
+		app:buttonColor="@color/light_cyan"/>
+</LinearLayout>

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Notifications -->
+	<string-array name="intervals">
+		<item>5 λεπτά</item>
+		<item>15 λεπτά</item>
+		<item>30 λεπτά</item>
+		<item>1 ώρα</item>
+		<item>6 ώρες</item>
+	</string-array>
+	<string-array name="intervalValues">
+		<item>300000</item>
+		<item>900000</item>
+		<item>1800000</item>
+		<item>3600000</item>
+		<item>21600000</item>
+	</string-array>
+
+	<!-- Availabilities -->
+	<string-array name="availabilities">
+		<item>Όλες</item>
+		<item>Διαθέσιμες</item>
+		<item>Μη διαθέσιμες</item>
+	</string-array>
+
+	<!-- Department Markers -->
+	<string-array name="department_markers">
+		<item>Βιβλιοθηκονομίας - Εμπορίας και Διαφήμισης</item>
+		<item>Λογιστικής - Τουριστικών Επιχειρήσεων</item>
+		<item>Τεχνολογίας Ιατρικών Εργαστηρίων - Νοσηλευτικής</item>
+		<item>Βρεφονηπιοκομίας - Μαιευτικής</item>
+		<item>Φυσικοθεραπείας - Αισθητικής</item>
+		<item>Διοίκηση Γεωργικών Εκμ/σεων</item>
+		<item>Φυτικής Παραγωγής</item>
+		<item>Ζωικής Παραγωγής - Διατροφής και Διαιτολογίας</item>
+		<item>Διατροφής και Διαιτολογίας</item>
+		<item>Τεχνολογίας Τροφίμων</item>
+		<item>Πολιτικών Έργων Υποδομής - Οχημάτων</item>
+		<item>Ηλεκτρονικής</item>
+		<item>Πληροφορικής - Αυτοματισμού</item>
+		<item>Οχημάτων</item>
+		<item>Θετικών Επιστημών</item>
+	</string-array>
+
+	<!-- Secretaries Markers -->
+	<string-array name="secretaries">
+		<item>Γραμματείες Τμ. Διοίκησης και Οικονομίας</item>
+		<item>Γραμματείες Τμ. Επαγελμάτων Υγείας και Πρόνοιας</item>
+		<item>Γραμματείες Τμ. Τεχνολογίας Γεωπονίας</item>
+		<item>Γραμματείες Τμ. Τεχνολογίας Τροφίμων και Διατροφής</item>
+		<item>Γραμματείες Τμ. Τεχνολογκών Εφαρμογών</item>
+	</string-array>
+
+	<!-- Other Markers-->
+	<string-array name="other">
+		<item>Τεχνική Υπηρεσία</item>
+		<item>Εκκλησία</item>
+		<item>Κέντρο Διαχείρισης Δικτύων</item>
+		<item>Φοιτητικές Εστίες</item>
+		<item>Κεντρικό Κυλικείο</item>
+		<item>Εστιατόρειο Φοιτητών</item>
+		<item>Βιβλιοθήκη</item>
+		<item>Μεγάλο Αμφιθέατρο</item>
+		<item>Αίθουσες 101–121</item>
+		<item>Αίθουσες 201–221</item>
+		<item>Αίθουσες 301–321</item>
+		<item>Ιατρείο</item>
+	</string-array>
+
+	<string-array name="markers">
+		<item>Απόκριψη όλων</item>
+		<item>Εμφάνιση όλων</item>
+		<item>Τμήματα</item>
+		<item>Γραμματείες</item>
+		<item>Άλλα σημεία</item>
+	</string-array>
+
+	<string-array name="photo_titles">
+		<item>Τυπική Αίθουσα Διδασκαλίας</item>
+		<item>Πειραματική Συστοιχία Υπολογιστών</item>
+		<item>Εργαστήριο 202</item>
+		<item>Διάδρομος Α Ορόφου</item>
+		<item>Εργαστήριο 208</item>
+		<item>Εργαστήριο 210</item>
+		<item>Τυπικός Κατανεμητής Δικτύου</item>
+		<item>Εργαστήριο 211</item>
+		<item>Γραφείο Εξυπηρέτησης Φοιτητών</item>
+		<item>Κέντρο Υπολογιστών και Δικτύων</item>
+		<item>Κέντρο Υπολογιστών και Δικτύων</item>
+		<item>Κεντρική Είσοδος</item>
+		<item>Παράπλευρη Είσοδος</item>
+		<item>Αμφιθέατρο</item>
+		<item>Κέντρο Υπολογιστών και Δικτύων</item>
+		<item>Το Κτίριο Πληροφορικής</item>
+		<item>Διάδρομος Ισογείου</item>
+	</string-array>
+
+	<string-array name="photo_urls">
+		<item>	http://www.it.teithe.gr/wp-content/uploads/2013/07/aithousa_didaskalias.jpg</item>
+		<item>	http://www.it.teithe.gr/wp-content/uploads/2013/07/cluster.jpg</item>
+		<item>	http://www.it.teithe.gr/wp-content/uploads/2013/07/ergasthrio_202.jpg</item>
+		<item>	http://www.it.teithe.gr/wp-content/uploads/2013/07/IMG_1604.jpg</item>
+		<item>	http://www.it.teithe.gr/wp-content/uploads/2013/07/IMG_1622.jpg</item>
+		<item>	http://www.it.teithe.gr/wp-content/uploads/2013/07/IMG_1626.jpg</item>
+		<item>	http://www.it.teithe.gr/wp-content/uploads/2013/07/IMG_1629.jpg</item>
+		<item>	http://www.it.teithe.gr/wp-content/uploads/2013/07/IMG_1638.jpg</item>
+		<item>	http://www.it.teithe.gr/wp-content/uploads/2013/07/IMG_1653.jpg</item>
+		<item>	http://www.it.teithe.gr/wp-content/uploads/2013/07/IMG_1666.jpg</item>
+		<item>	http://www.it.teithe.gr/wp-content/uploads/2013/07/IMG_1678.jpg</item>
+		<item>	http://www.it.teithe.gr/wp-content/uploads/2013/07/IMG_1717.jpg</item>
+		<item>	http://www.it.teithe.gr/wp-content/uploads/2013/07/IMG_1728.jpg</item>
+		<item>	http://www.it.teithe.gr/wp-content/uploads/2013/07/IMG_1777.jpg</item>
+		<item>	http://www.it.teithe.gr/wp-content/uploads/2013/07/servers2.jpg</item>
+		<item>	http://www.it.teithe.gr/wp-content/uploads/2013/07/a_Tmima_pliroforikis_1_1.jpg</item>
+		<item>	http://www.it.teithe.gr/wp-content/uploads/2013/07/IMG_1756.jpg</item>
+	</string-array>
+
+	<string-array name="bulletin_boards">
+		<item>Όλοι οι πίνακες</item>
+		<item>1ο Εξάμηνο</item>
+		<item>2ο εξάμηνο</item>
+		<item>3ο Εξάμηνο</item>
+		<item>4ο Εξάμηνο</item>
+		<item>5ο Εξάμηνο</item>
+		<item>6ο Εξάμηνο</item>
+		<item>7ο Εξάμηνο</item>
+		<item>Νέα Τμήματος</item>
+		<item>Τεχνικά Θέματα</item>
+		<item>Πρακτική Άσκηση</item>
+		<item>Πτυχιακή Εργασία</item>
+		<item>Erasmus</item>
+		<item>Παρουσιάσεις πτυχιακών</item>
+		<item>Διακηρύξεις – Προκηρύξεις</item>
+		<item>Μεταπτυχιακά</item>
+		<item>Ερευνητικά Προγράμματα</item>
+		<item>IEEE Student Branch</item>
+		<item>Άλλα δημόσια νέα</item>
+		<item>Ανακοινώσεις Γραμματείας</item>
+	</string-array>
+
+	<string-array name="thesis_tags">
+		<item>Χωρίς tags</item>
+		<item>Web</item>
+		<item>Ανάλυση</item>
+		<item>Ασφάλεια Συστημάτων</item>
+		<item>Βάσεις Δεδομένων</item>
+		<item>Γραφικά Η/Υ</item>
+		<item>Δίκτυα</item>
+		<item>Εξόρυξη Πληροφορίας</item>
+		<item>Επεξεργασία Σήματος και Εικόνας</item>
+		<item>Επιχειρησιακή Έρευνα</item>
+		<item>Ηλεκτρονικό Εμπόριο</item>
+		<item>Λειτουργικά Συστήματα</item>
+		<item>Μετρήσεις</item>
+		<item>Μηχανοργάνωση</item>
+		<item>Νευρωνικά Δίκτυα</item>
+		<item>Οργάνωση και Αρχιτεκτονική Υπολογιστών</item>
+		<item>Πολυμέσα</item>
+		<item>Προγραμματισμός</item>
+		<item>Στατιστική</item>
+		<item>Τεχνητή Νοημοσύνη</item>
+		<item>Τηλεκπαίδευση</item>
+	</string-array>
+
+	<!-- these must be respective to their string countrparts above! -->
+	<integer-array name="thesis_tag_filters">
+		<item>0</item>
+		<item>4</item>
+		<item>5</item>
+		<item>25</item>
+		<item>3</item>
+		<item>23</item>
+		<item>1</item>
+		<item>17</item>
+		<item>11</item>
+		<item>20</item>
+		<item>16</item>
+		<item>7</item>
+		<item>6</item>
+		<item>10</item>
+		<item>13</item>
+		<item>15</item>
+		<item>12</item>
+		<item>2</item>
+		<item>21</item>
+		<item>1</item>
+		<item>9</item>
+	</integer-array>
+
+	<!-- Links Activity -->
+	<string-array name="links_titles">
+		<item>ΧΡΗΣΙΜΟΙ ΣΥΝΔΕΣΜΟΙ</item>
+		<item>ΙΣΤΟΣΕΛΙΔΕΣ ΦΟΙΤΗΤΩΝ</item>
+		<item>ΙΣΤΟΣΕΛΙΔΕΣ ΚΑΘΗΓΗΤΩΝ</item>
+	</string-array>
+
+	<string-array name="links_filenames">
+		<item>links.html</item>
+		<item>studentlinks.html</item>
+		<item>stufflinks.html</item>
+	</string-array>
+
+	<!-- Support Activity -->
+	<string-array name="support_titles">
+		<item>ΔΙΟΙΚΗΤΙΚΗ</item>
+		<item>ΕΚΠΑΙΔΕΥΤΙΚΗ</item>
+		<item>ΦΟΙΤΗΤΙΚΗ ΜΕΡΙΜΝΑ</item>
+	</string-array>
+	<string-array name="support_filenames">
+		<item>asupport.html</item>
+		<item>esupport.html</item>
+		<item>student.html</item>
+	</string-array>
+
+	<!-- Department Activity -->
+	<string-array name="dep_titles">
+		<item>ΟΡΓΑΝΩΣΗ</item>
+		<item>ΔΙΟΙΚΗΣΗ</item>
+		<item>ΠΡΟΣΩΠΙΚΟ</item>
+		<item>ΕΞΟΠΛΙΣΜΟΣ</item>
+		<item>ΑΞΙΟΛΟΓΙΣΗ</item>
+		<item>ΧΡΗΣΙΜΑ ΕΝΤΥΠΑ</item>
+		<item>ΕΠΙΚΟΙΝΩΝΙΑ</item>
+	</string-array>
+	<string-array name="dep_filenames">
+		<item>organization.html</item>
+		<item>administration.html</item>
+		<item>staff.html</item>
+		<item>hardware.html</item>
+		<item>evaluation.html</item>
+		<item>documents.html</item>
+		<item>contact.html</item>
+	</string-array>
+	<string-array name="bcs_titles">
+		<item>ΤΙΤΛΟΣ ΣΠΟΥΔΩΝ</item>
+		<item>ΚΑΝΟΝΙΣΜΟΣ ΣΠΟΥΔΩΝ</item>
+		<item>ΟΡΓΑΝΩΣΗ ΜΑΘΗΜΑΤΩΝ</item>
+		<item>ΠΤΥΧΙΑΚΗ ΕΡΓΑΣΙΑ</item>
+		<item>ΠΡΑΚΤΙΚΗ</item>
+		<item>ΑΠΑΣΧΟΛΗΣΗ</item>
+	</string-array>
+	<string-array name="bcs_filenames">
+		<item>bachelor_degree.html</item>
+		<item>bachelor_rules.html</item>
+		<item>bachelor_courses.html</item>
+		<item>bachelor_thesis.html</item>
+		<item>bachelor_praktiki.html</item>
+		<item>bachelor_job.html</item>
+	</string-array>
+	<string-array name="msc_titles">
+		<item>ΠΕΡΙΓΡΑΦΗ</item>
+		<item>ΟΡΓΑΝΩΣΗ</item>
+		<item>ΔΙΑΔ. ΕΙΣΑΓΩΓΗΣ</item>
+		<item>ΠΡΟΓ. ΣΠΟΥΔΩΝ</item>
+		<item>ΤΙΤΛΟΣ ΣΠΟΥΔΩΝ</item>
+	</string-array>
+	<string-array name="msc_filenames">
+		<item>masters_desc.html</item>
+		<item>masters_admin.html</item>
+		<item>masters_enter.html</item>
+		<item>masters_semesters.html</item>
+		<item>masters_degree.html</item>
+	</string-array>
+	<!-- Timetable -->
+	<string-array name="days">
+		<item>ΔΕΥΤΕΡΑ</item>
+		<item>ΤΡΙΤΗ</item>
+		<item>ΤΕΤΑΡΤΗ</item>
+		<item>ΠΕΜΠΤΗ</item>
+		<item>ΠΑΡΑΣΚΕΥΗ</item>
+	</string-array>
+
+	<!-- Semesters -->
+	<string-array name="semesters">
+		<item>Α ΕΞΑΜΗΝΟ</item>
+		<item>Β ΕΞΑΜΗΝΟ</item>
+		<item>Γ ΕΞΑΜΗΝΟ</item>
+		<item>Δ ΕΞΑΜΗΝΟ</item>
+		<item>Ε ΕΞΑΜΗΝΟ</item>
+		<item>ΣΤ ΕΞΑΜΗΝΟ</item>
+		<item>Ζ ΕΞΑΜΗΝΟ</item>
+	</string-array>
+
+	<!-- classes  -->
+	<string-array name="classes">
+		<item>-</item>
+		<item>T1</item>
+		<item>T2</item>
+		<item>T3</item>
+		<item>T4</item>
+		<item>T5</item>
+		<item>T6</item>
+		<item>T7</item>
+		<item>T8</item>
+		<item>T9</item>
+		<item>T10</item>
+	</string-array>
+
+	<!-- classes -->
+	<string-array name="proper_mail_folders">
+		<item>Εισερχόμενα</item>
+		<item>Απεσταλμένα</item>
+		<item>Πρόχειρα</item>
+		<item>Διαγραμμένα</item>
+	</string-array>
+
+	<string-array name="original_mail_folders">
+		<item>INBOX</item>
+		<item>sent-mail</item>
+		<item>Drafts</item>
+		<item>Trash</item>
+	</string-array>
+
+</resources>

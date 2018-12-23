@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="@dimen/h_margin"
+		android:layout_marginRight="@dimen/h_margin"
+		android:orientation="vertical">
+
+		<android.support.v7.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/card_margin"
+			app:cardElevation="3dp"
+			app:contentPadding="@dimen/card_padding">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/tv_name"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="5dp"
+					android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+				<TextView
+					android:id="@+id/tv_am"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="5dp"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:textStyle="italic"/>
+			</LinearLayout>
+
+		</android.support.v7.widget.CardView>
+
+		<android.support.v7.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/card_margin"
+			app:cardElevation="3dp"
+			app:contentPadding="@dimen/card_padding">
+
+			<android.support.v7.widget.GridLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				app:columnCount="2"
+				app:rowCount="3">
+
+				<TextView
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:padding="5dp"
+					android:text="@string/no_passed_courses"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					app:layout_gravity="fill_horizontal"/>
+
+				<TextView
+					android:id="@+id/tv_passed"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="5dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+				<TextView
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:padding="5dp"
+					android:text="@string/grades_avg"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					app:layout_gravity="fill_horizontal"/>
+
+				<TextView
+					android:id="@+id/tv_avg"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="5dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+				<TextView
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:padding="5dp"
+					android:text="@string/total_dm"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					app:layout_gravity="fill_horizontal"/>
+
+				<TextView
+					android:id="@+id/tv_dm"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="5dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			</android.support.v7.widget.GridLayout>
+		</android.support.v7.widget.CardView>
+
+		<android.support.v7.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/card_margin"
+			app:cardElevation="3dp">
+
+			<LinearLayout
+				android:id="@+id/container1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				<TextView
+					style="@style/TitleStyle"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="5dp"
+					android:text="@string/latest_grades"
+					app:layout_gravity="fill_horizontal"/>
+
+			</LinearLayout>
+
+		</android.support.v7.widget.CardView>
+	</LinearLayout>
+</ScrollView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<item
+		android:id="@+id/action_places"
+		android:icon="@drawable/ic_place"
+		android:orderInCategory="1"
+		android:title="@string/markers"
+		app:showAsAction="always"/>
+
+	<item
+		android:id="@+id/action_directions"
+		android:icon="@drawable/ic_directions"
+		android:orderInCategory="2"
+		android:title="@string/directions"
+		app:showAsAction="ifRoom"/>
+
+</menu>

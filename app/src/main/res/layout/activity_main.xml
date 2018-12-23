@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<include
+		layout="@layout/toolbar_underlined">
+	</include>
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="10dp">
+
+			<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:adjustViewBounds="true"
+				android:contentDescription="@string/logo"
+				android:src="@drawable/ic_main_logo"/>
+
+			<info.hoang8f.widget.FButton
+				android:id="@+id/btn_dep"
+				style="@style/ButtonStyle"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:onClick="showDepContainer"
+				android:text="@string/hydra_services"
+				app:buttonColor="@color/cyan"/>
+
+			<com.github.aakira.expandablelayout.ExpandableRelativeLayout
+				android:id="@+id/container_dep"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				app:ael_expanded="false"
+				app:ael_orientation="vertical">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical">
+
+					<info.hoang8f.widget.FButton
+						style="@style/ButtonSmallStyle"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:onClick="showBulletins"
+						android:text="@string/hydra_bulletins"
+						app:buttonColor="@color/grey"
+						app:cornerRadius="2dp"/>
+
+					<info.hoang8f.widget.FButton
+						style="@style/ButtonSmallStyle"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:onClick="showTimetable"
+						android:text="@string/timetable"
+						app:buttonColor="@color/grey"
+						app:cornerRadius="2dp"/>
+
+					<info.hoang8f.widget.FButton
+						style="@style/ButtonSmallStyle"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:onClick="showThesis"
+						android:text="@string/hydra_thesis"
+						app:buttonColor="@color/grey"
+						app:cornerRadius="2dp"/>
+
+					<info.hoang8f.widget.FButton
+						style="@style/ButtonSmallStyle"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:onClick="showStaff"
+						android:text="@string/hydra_staff"
+						app:buttonColor="@color/grey"
+						app:cornerRadius="2dp"/>
+				</LinearLayout>
+			</com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+			<info.hoang8f.widget.FButton
+				android:id="@+id/btn_sec"
+				style="@style/ButtonStyle"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:onClick="showSecContainer"
+				android:text="@string/pithia_services"
+				app:buttonColor="@color/cyan"/>
+
+			<com.github.aakira.expandablelayout.ExpandableRelativeLayout
+				android:id="@+id/container_sec"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				app:ael_expanded="false"
+				app:ael_orientation="vertical">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical">
+
+					<info.hoang8f.widget.FButton
+						style="@style/ButtonSmallStyle"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:onClick="showPersonalInfo"
+						android:text="@string/pithia_personal_info"
+						app:buttonColor="@color/grey"
+						app:cornerRadius="2dp"/>
+
+					<info.hoang8f.widget.FButton
+						style="@style/ButtonSmallStyle"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:onClick="showGrades"
+						android:text="@string/pithia_grades"
+						app:buttonColor="@color/grey"
+						app:cornerRadius="2dp"/>
+
+					<info.hoang8f.widget.FButton
+						style="@style/ButtonSmallStyle"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:onClick="showRequests"
+						android:text="@string/pithia_requests"
+						app:buttonColor="@color/grey"
+						app:cornerRadius="2dp"/>
+				</LinearLayout>
+			</com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+			<info.hoang8f.widget.FButton
+				android:id="@+id/btn_info"
+				style="@style/ButtonStyle"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:onClick="showInfoContainer"
+				android:text="@string/info"
+				app:buttonColor="@color/cyan"/>
+
+			<com.github.aakira.expandablelayout.ExpandableRelativeLayout
+				android:id="@+id/container_info"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				app:ael_expanded="false"
+				app:ael_orientation="vertical">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical">
+
+					<info.hoang8f.widget.FButton
+						style="@style/ButtonSmallStyle"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:onClick="showDep"
+						android:text="@string/department"
+						app:buttonColor="@color/grey"
+						app:cornerRadius="2dp"/>
+
+					<info.hoang8f.widget.FButton
+						style="@style/ButtonSmallStyle"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:onClick="showStudiesContainer"
+						android:text="@string/studies"
+						app:buttonColor="@color/grey"
+						app:cornerRadius="2dp"/>
+
+					<com.github.aakira.expandablelayout.ExpandableRelativeLayout
+						android:id="@+id/container_studies"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						app:ael_expanded="false"
+						app:ael_orientation="vertical">
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:orientation="vertical">
+							<info.hoang8f.widget.FButton
+								style="@style/ButtonSmallStyle"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:onClick="showStudiesBcs"
+								android:text="@string/bachelor"
+								app:buttonColor="@color/light_cyan"
+								app:cornerRadius="2dp"/>
+
+							<info.hoang8f.widget.FButton
+								style="@style/ButtonSmallStyle"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:onClick="showStudiesMcs"
+								android:text="@string/master"
+								app:buttonColor="@color/light_cyan"
+								app:cornerRadius="2dp"/>
+
+							<info.hoang8f.widget.FButton
+								style="@style/ButtonSmallStyle"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:onClick="showStudiesErasmus"
+								android:text="@string/erasmus"
+								app:buttonColor="@color/light_cyan"
+								app:cornerRadius="2dp"/>
+						</LinearLayout>
+					</com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+					<info.hoang8f.widget.FButton
+						style="@style/ButtonSmallStyle"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:onClick="showSupport"
+						android:text="@string/support"
+						app:buttonColor="@color/grey"
+						app:cornerRadius="2dp"/>
+
+					<info.hoang8f.widget.FButton
+						style="@style/ButtonSmallStyle"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:onClick="showPhotos"
+						android:text="@string/photos"
+						app:buttonColor="@color/grey"
+						app:cornerRadius="2dp"/>
+
+					<info.hoang8f.widget.FButton
+						style="@style/ButtonSmallStyle"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:onClick="showLinks"
+						android:text="@string/links"
+						app:buttonColor="@color/grey"
+						app:cornerRadius="2dp"/>
+				</LinearLayout>
+			</com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+			<info.hoang8f.widget.FButton
+				android:id="@+id/btn_tools"
+				style="@style/ButtonStyle"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:onClick="showToolContainer"
+				android:text="@string/tools"
+				app:buttonColor="@color/cyan"/>
+
+			<com.github.aakira.expandablelayout.ExpandableRelativeLayout
+				android:id="@+id/container_tools"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				app:ael_expanded="false"
+				app:ael_orientation="vertical">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical">
+
+					<info.hoang8f.widget.FButton
+						style="@style/ButtonSmallStyle"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:onClick="showBus"
+						android:text="@string/bus_arrival"
+						app:buttonColor="@color/grey"
+						app:cornerRadius="2dp"/>
+
+					<info.hoang8f.widget.FButton
+						style="@style/ButtonSmallStyle"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:onClick="showMap"
+						android:text="@string/map"
+						app:buttonColor="@color/grey"
+						app:cornerRadius="2dp"/>
+				</LinearLayout>
+			</com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

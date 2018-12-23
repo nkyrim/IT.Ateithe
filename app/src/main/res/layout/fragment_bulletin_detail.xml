@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<android.support.v4.widget.NestedScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<TextView
+				android:id="@+id/tv_title"
+				style="@style/TitleStyle"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center"/>
+
+			<android.support.v7.widget.CardView
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_margin="@dimen/card_margin"
+				app:cardElevation="3dp"
+				app:contentPadding="@dimen/card_padding">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_margin="10dp"
+					android:orientation="vertical">
+
+					<TextView
+						android:id="@+id/tv_msg"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:autoLink="all"
+						android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					<TextView
+						android:id="@+id/tv_author"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:gravity="end"
+						android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					<TextView
+						android:id="@+id/tv_date"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:gravity="end"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:textStyle="italic"/>
+				</LinearLayout>
+			</android.support.v7.widget.CardView>
+		</LinearLayout>
+
+	</android.support.v4.widget.NestedScrollView>
+
+	<android.support.design.widget.FloatingActionButton
+		android:id="@+id/fab"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="end|bottom"
+		android:layout_margin="@dimen/fab_margin"
+		android:src="@drawable/ic_download"
+		android:visibility="gone"
+		app:layout_behavior="com.nkyrim.itapp.ui.util.FABScrollBehavior"/>
+
+</android.support.design.widget.CoordinatorLayout>

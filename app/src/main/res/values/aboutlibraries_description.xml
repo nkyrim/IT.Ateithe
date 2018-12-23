@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="aboutLibraries_description_name">@string/app_name</string>
+    <string name="aboutLibraries_description_text">@string/about_message</string>
+	<string name="aboutLibraries_description_special1_name">Changelog</string>
+    <string name="aboutLibraries_description_special1_text">
+        <![CDATA[
+        <i>Version 1.1.0</i><br />
+        - Something nice ;)<br />
+        - Something awesome<br />
+        <br />
+        ]]>
+    </string>
+</resources>

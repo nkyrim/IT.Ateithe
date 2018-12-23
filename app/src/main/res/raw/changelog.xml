@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog bulletedList="true">
+
+	<changelogversion changeDate="13 ΝΟΕΜΒΡΙΟΥ, 2015" versionName="1.1.1">
+		<changelogtext>Διορθώθηκε ενα bug που μπορεί να έδειχνε λάθος την κατάσταση των mail μετα απο scroll στη λίστα.</changelogtext>
+	</changelogversion>
+	<changelogversion changeDate="12 ΝΟΕΜΒΡΙΟΥ, 2015" versionName="1.1">
+		<changelogtext>Νέες λειτουργίες στο Ηλ.Ταχυδρομείο (διαγραφή, μεταφορά σε φάκελο, προώθηση).\nΜεταβείτε στην "Βοήθεια" για τις διαφορές στον τρόπο λειτουργίας σε σύγκριση με το WebMail.
+		</changelogtext>
+		<changelogtext>Το πρόγραμμα εξαμήνου αποθηκεύτε πλέον τοπικά μετά τη πρώτη λήψη και είναι προσβάσιμο χωρίς σύνδεση στο διαδίκτιο.
+		</changelogtext>
+		<changelogtext>Διορθώθηκε η λειτουργία "Το πρόγραμμα μου" με την ανανέωση της επιλογής μαθημάτων με βάση το νέο πρόγραμμα σπουδών(Π5).
+		</changelogtext>
+		<changelogtext>Αλλαγή στον τρόπο λήψης των πτυχιακών εργασιών.
+		</changelogtext>
+		<changelogtext>Μικρές διορθώσεις/αλλαγές στο UI</changelogtext>
+	</changelogversion>
+	<changelogversion changeDate="18 ΙΟΥΝΙΟΥ, 2015" versionName="1.0">
+		<changelogtext>Πρώτη επίσημη έκδοση</changelogtext>
+	</changelogversion>
+
+</changelog>

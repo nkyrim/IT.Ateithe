@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:animateLayoutChanges="true"
+	android:orientation="vertical">
+
+	<TextView
+		android:id="@+id/tv_title"
+		style="@style/TitleStyle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:gravity="center"
+		android:text="@string/staff_info"/>
+
+	<ProgressBar
+		android:id="@+id/prg"
+		style="?android:attr/progressBarStyleHorizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/tv_title"
+		android:indeterminate="true"
+		android:visibility="gone"/>
+
+	<android.support.v7.widget.CardView
+		android:id="@+id/view_detail"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_below="@+id/prg"
+		android:layout_margin="@dimen/card_margin"
+		android:visibility="gone"
+		app:cardElevation="3dp"
+		app:contentPadding="@dimen/card_padding">
+
+		<ScrollView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+			<TableLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+				<TableRow
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginEnd="10dp"
+						android:layout_marginRight="10dp"
+						android:gravity="end"
+						android:text="@string/st_lastname"
+						android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					<TextView
+						android:id="@+id/tv_lastname"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_weight="1"
+						android:textAppearance="?android:attr/textAppearanceMedium"/>
+				</TableRow>
+
+				<TableRow
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginEnd="10dp"
+						android:layout_marginRight="10dp"
+						android:gravity="end"
+						android:text="@string/st_firstname"
+						android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					<TextView
+						android:id="@+id/tv_firstname"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_weight="1"
+						android:textAppearance="?android:attr/textAppearanceMedium"/>
+				</TableRow>
+
+				<TableRow
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginEnd="10dp"
+						android:layout_marginRight="10dp"
+						android:gravity="end"
+						android:text="@string/roles"
+						android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					<TextView
+						android:id="@+id/tv_roles"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_weight="1"
+						android:textAppearance="?android:attr/textAppearanceMedium"/>
+				</TableRow>
+
+				<TableRow
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginEnd="10dp"
+						android:layout_marginRight="10dp"
+						android:gravity="end"
+						android:text="@string/office_number"
+						android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					<TextView
+						android:id="@+id/tv_tel"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_weight="1"
+						android:autoLink="all"
+						android:textAppearance="?android:attr/textAppearanceMedium"/>
+				</TableRow>
+
+				<TableRow
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginEnd="10dp"
+						android:layout_marginRight="10dp"
+						android:gravity="end"
+						android:text="@string/email"
+						android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					<TextView
+						android:id="@+id/tv_mail"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_weight="1"
+						android:autoLink="all"
+						android:textAppearance="?android:attr/textAppearanceMedium"/>
+				</TableRow>
+
+				<TableRow
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginEnd="10dp"
+						android:layout_marginRight="10dp"
+						android:gravity="end"
+						android:text="@string/teaches"
+						android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					<TextView
+						android:id="@+id/tv_teaches"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_weight="1"
+						android:textAppearance="?android:attr/textAppearanceMedium"/>
+				</TableRow>
+
+				<TableRow
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginEnd="10dp"
+						android:layout_marginRight="10dp"
+						android:gravity="end"
+						android:text="@string/webpage"
+						android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					<TextView
+						android:id="@+id/tv_webpage"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_weight="1"
+						android:autoLink="all"
+						android:textAppearance="?android:attr/textAppearanceMedium"/>
+				</TableRow>
+			</TableLayout>
+
+		</ScrollView>
+	</android.support.v7.widget.CardView>
+</RelativeLayout>

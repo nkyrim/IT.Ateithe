@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Application main  colors -->
+	<color name="light_cyan">#03B4BE</color>
+	<color name="cyan">#038A91</color>
+	<color name="dark_cyan">#236d7f</color>
+	<color name="yellow">#ffff00</color>
+
+	<!-- shades of gray -->
+	<color name="lighter_grey">#eeeeee</color>
+	<color name="light_grey">#E6E6E6</color>
+	<color name="grey">#c8c8c8</color>
+	<color name="dark_grey">#808080</color>
+
+	<!-- other colors -->
+	<color name="light_yellow">#fbffaa</color>
+	<color name="black_semi_transparent">#96000000</color>
+	<color name="white_semi_transparent">#96FFFFFF</color>
+
+	<!-- other basic colors -->
+	<color name="white">#ffffffff</color>
+	<color name="red">#ffff0000</color>
+	<color name="blue">#ff0000ff</color>
+	<color name="green">#ff00ff00</color>
+	<color name="black">#ff000000</color>
+
+	<!-- color arrays -->
+	<array name="loading">
+		<item>@color/light_cyan</item>
+		<item>@color/yellow</item>
+		<item>@color/cyan</item>
+	</array>
+
+</resources>

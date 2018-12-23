@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!--
+		Note: Hydra, Pithia, Aetos and downloads keys are only used to get their references in the java code!
+		They are not used for storing values, the dialogs will store the necessary values.
+	-->
+
+	<PreferenceCategory android:title="@string/pref_accounts">
+		<Preference
+			android:key="HYDRA"
+			android:summary="@string/pref_hydra_msg"
+			android:title="@string/pref_hydra"/>
+		<Preference
+			android:key="PITHIA"
+			android:summary="@string/pref_pithia_msg"
+			android:title="@string/pref_pithia"/>
+		<Preference
+			android:key="AETOS"
+			android:summary="@string/pref_mail_msg"
+			android:title="@string/pref_email"/>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/pref_notifications">
+		<Preference
+			android:key="NOTIFICATIONS_MAX"
+			android:summary="@string/pref_notifications_max_msg"
+			android:title="@string/pref_notifications_max"/>
+		<CheckBoxPreference
+			android:key="NOTIFICATIONS_ACTIVATION"
+			android:summary="@string/pref_notifications_activate_msg"
+			android:title="@string/pref_notifications_activate"/>
+		<ListPreference
+			android:defaultValue="3600000"
+			android:dependency="NOTIFICATIONS_ACTIVATION"
+			android:dialogTitle="@string/pref_interval"
+			android:entries="@array/intervals"
+			android:entryValues="@array/intervalValues"
+			android:key="NOTIFICATIONS_INTERVAL"
+			android:summary="@string/pref_interval_msg"
+			android:title="@string/pref_interval"/>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/pref_other">
+		<Preference
+			android:key="DOWNLOADS"
+			android:summary="@string/pref_download_dir_msg"
+			android:title="@string/pref_download_dir"/>
+		<Preference
+			android:key="COURSES"
+			android:summary="@string/pref_course_sel_msg"
+			android:title="@string/pref_course_sel"/>
+
+	</PreferenceCategory>
+
+</PreferenceScreen>
